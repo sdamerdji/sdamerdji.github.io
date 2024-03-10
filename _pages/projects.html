@@ -1,0 +1,15 @@
+---
+layout: archive
+permalink: /projects/
+title: "Projects"
+author_profile: false
+---
+
+{% include base_path %}
+
+Here are the projects I have worked on
+
+{% for post in site.projects %}
+  {% include archive-single.html %}
+  <hr syle="border-top: 8px solid #bbb;">
+{% endfor %}
